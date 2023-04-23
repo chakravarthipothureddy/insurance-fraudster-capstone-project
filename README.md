@@ -19,7 +19,7 @@ To predicting the “Fraud in auto insurance claims”
   Grouped the vehicle data through recursive grouping.
   after groped the data merging all given data on customer ID.
   
-# Dropped unnecessary columns such are Ids ,country.
+## Dropped unnecessary columns such are Ids ,country.
   As the whole data was recorded in 2015 at india only
   Country, year from IncidentDate were dropped
   CustomerID, PolicyNumber, IncidentAddress were dropped due to high cardinality and no effect on target.
