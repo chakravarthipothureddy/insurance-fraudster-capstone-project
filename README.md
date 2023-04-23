@@ -32,7 +32,7 @@ To predicting the “Fraud in auto insurance claims”
    Created netamount feature through (Capital_Gain + Capital_Loss)
 
 # Visulisation : 
- Insights
+ #### Insights
   we use countplot for hobbies column, typeofincident, sevirtyofincident.
    Hobbies column  
     One thing which is striking in this graph is that people with chess and cross-fit as hobby have extremely high number of fraudulent claims.
@@ -41,21 +41,21 @@ To predicting the “Fraud in auto insurance claims”
    sevirityofincident
      Here, compared to minor damage, total loss and trivial damage, fraudulent claims are highest in major damage. One of the reason could be that the high amount of        repair cost which will be incurred by the insurer due to major damage.   
 # Preprocessing:
-  # Deal with missingvalues
+  ### Deal with missingvalues
    using missingno library to know how much of missing values are hear in data.
     if simple imputer and Knn imputation is used to impute missing values.
- # Deal with Outliers :
+ ### Deal with Outliers :
     if winsorisation Techinique is used to handle outliers.
      Winsorization is a technique used in statistics to limit the effect of outliers by capping the extreme values in a dataset.
- # Dealing with target value 
+ ### Dealing with target value 
    our target data is unbalanced data. so, we use SMOTE method to balanced the data
  
-   Ordinal encoding, Label encoding and One-hot encoding is used to convert categorical into numerical values.
+   ##### Ordinal encoding, Label encoding and One-hot encoding is used to convert categorical into numerical values.
  
  # Train-Test_spliting:
     The training set is used to fit the model, while the testing set is used to evaluate its performance. The main purpose of this technique is to check how well the        model can generalize to new, unseen data.
  # Standardisation : 
     Standardization is a technique used in data preprocessing to transform data to have zero mean and unit variance. It involves scaling the features of a dataset to        have a common scale, which helps in improving the accuracy and efficiency of machine learning models.
 
-Model building and validation. 
+## Model building and validation. 
      
