@@ -32,17 +32,18 @@ To predicting the “Fraud in auto insurance claims”
    Created netamount feature through (Capital_Gain + Capital_Loss)
 
 # Visulisation : 
- #### Insights
+ ## Insights
   we use countplot for hobbies column, typeofincident, sevirtyofincident.
-   Hobbies column  
+   #### Hobbies column  
     One thing which is striking in this graph is that people with chess and cross-fit as hobby have extremely high number of fraudulent claims.
-   typeofincident
+   #### typeofincident
      Multi-vehicle and single vehicle collisions have more number of frauds compared to parked and vehicle theft. One of the reasons could be that in a collision,          there is high possibility of more damage to car, as well as the passengers and hence the need to file false insurance claims.
-   sevirityofincident
+   #### sevirityofincident
      Here, compared to minor damage, total loss and trivial damage, fraudulent claims are highest in major damage. One of the reason could be that the high amount of        repair cost which will be incurred by the insurer due to major damage.   
 # Preprocessing:
   ### Deal with missingvalues
    using missingno library to know how much of missing values are hear in data.
+   #
     if simple imputer and Knn imputation is used to impute missing values.
  ### Deal with Outliers :
     if winsorisation Techinique is used to handle outliers.
